@@ -1,5 +1,5 @@
 {
-    "pauta": {
+    "pautas": {
         "erro": 0,
         "msg": "Pautas listadas com sucesso",
         "data":
@@ -30,6 +30,28 @@
         }
 
         
+    },
+
+    "pauta": {
+        "pautaQuote_int_id": 241 , 
+        "pautaQuote_txt_nome": "Apenas Print My Case", 
+        "pautaQuoteResponsavel_int_id": 1917,
+        "pautaQuoteSituacao_int_id": 2,
+        "pauta_itens": [
+            {
+                "pautaQuote_int_id": 241,
+                "pautaItem_bool_marketing": 0, 
+                "venda_int_id": 4014687, 
+                "venda_dt_data":"2021-02-14T03:00:00.000000Z",
+                "produto_int_id": 24208,
+                "produto_txt_nome": "Capa de Silicone Semi Rigida VX Case",
+                "produtoEstampa_txt_nome": "Starry Skater Masculino",
+                "produtoSubcategoria_txt_nome": "Galaxy A01",
+                "empresaFiscal_txt_nome_financeiro": "Salvador - iPhone - Shopping Bela Vista - Loja 55 - iPhone Bahia",
+                "venda_txt_justificativa": "CLIENTE DESEJA TODAS AS 2 FOTOS CENTRALIZADAS DE FORMA QUE A SAÍDA DA CAMERA NÃO CORTE A IMAGEM DAS PESSOAS.",
+                "vendaOperacaoHistorico_txt_obs": "CLIENTE DESEJA TODAS AS 2 FOTOS CENTRALIZADAS DE FORMA QUE A SAÍDA DA CAMERA NÃO CORTE A IMAGEM DAS PESSOAS."
+            }
+        ]
     },
 
     "pauta_situacao": {
