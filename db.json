@@ -1,1 +1,112 @@
+{
+    "pauta": {
+        "erro": 0,
+        "msg": "Pautas listadas com sucesso",
+        "data":
+        {
+            "total_pautas": 4,
+            "total_nao_concluidas": 3,
+            "total_concluidas": 1,
+            "pautas": [
+                {
+                    "pautaQuote_int_id": 241 , 
+                    "pautaQuote_txt_nome": "Apenas Print My Case", 
+                    "pautaQuote_txt_responsável": "Othon Santos Assis", 
+                    "pautaQuoteResponsavel_int_id": 1917,
+                    "periodo_inicial": "2021-02-12T03:00:00.000000Z",
+                    "periodo_final": "2021-02-14T03:00:00.000000Z",
+                    "pautaQuoteSituacao_int_id": 2,
+                    "pautaQuoteSituacao_txt_nome": "Em andamento",
+                    "total_itens": 8,
+                    "total_aguardando_envio": 0,
+                    "total_enviado_marketing": 0,
+                    "total_arte_pronta": 0,
+                    "total_aguardando_aprovacao": 0,
+                    "total_aprovado": 6,
+                    "total_aproduzir": 2,
+                    "total_pronto": 0
+                }
+            ] 
+        }
 
+        
+    },
+
+    "pauta_situacao": {
+        "erro": 0,
+        "msg": "Situações listadas com sucesso",
+        "data":[
+            { 
+                "pautaQuoteSituacao_int_id": 1, 
+                "pautaQuoteSituacao_txt_nome": "Solicitado" 
+            },
+            { 
+                "pautaQuoteSituacao_int_id": 2, 
+                "pautaQuoteSituacao_txt_nome": "Em andamento" 
+            },
+            { 
+                "pautaQuoteSituacao_int_id": 3, 
+                "pautaQuoteSituacao_txt_nome": "Concluída" 
+            },
+            { 
+                "pautaQuoteSituacao_int_id": 4, 
+                "pautaQuoteSituacao_txt_nome": "Não Concluída"
+             }
+        ]
+    },
+
+    "pauta_item": {
+        "erro": 0,
+        "msg": "Itens listados com sucesso",
+        "data": [
+            {
+                "pautaQuote_int_id": 241,
+                "pautaItem_bool_marketing": 0, 
+                "venda_int_id": 4014687, 
+                "venda_dt_data":"2021-02-14T03:00:00.000000Z",
+                "produto_int_id": 24208,
+                "produto_txt_nome": "Capa de Silicone Semi Rigida VX Case",
+                "produtoEstampa_txt_nome": "Starry Skater Masculino",
+                "produtoSubcategoria_txt_nome": "Galaxy A01",
+                "empresaFiscal_txt_nome_financeiro": "Salvador - iPhone - Shopping Bela Vista - Loja 55 - iPhone Bahia",
+                "venda_txt_justificativa": "CLIENTE DESEJA TODAS AS 2 FOTOS CENTRALIZADAS DE FORMA QUE A SAÍDA DA CAMERA NÃO CORTE A IMAGEM DAS PESSOAS.",
+                "vendaOperacaoHistorico_txt_obs": "CLIENTE DESEJA TODAS AS 2 FOTOS CENTRALIZADAS DE FORMA QUE A SAÍDA DA CAMERA NÃO CORTE A IMAGEM DAS PESSOAS."
+            }
+        ]
+    },
+
+    "pauta_item_situacao": {
+        "erro": 0,
+        "msg": "Situações listas com sucesso",
+        "data":[
+            { 
+                "pautaItemSituacao_int_id": 1, 
+                "pautaItemSituacao_txt_nome": "Aguardando Envio da Arte" 
+            },
+            { 
+                "pautaItemSituacao_int_id": 2, 
+                "pautaItemSituacao_txt_nome": "Enviar para o Marketing" 
+            },
+            { 
+                "pautaItemSituacao_int_id": 3, 
+                "pautaItemSituacao_txt_nome": "Arte Pronta" 
+            },
+            { 
+                "pautaItemSituacao_int_id": 4, 
+                "pautaItemSituacao_txt_nome": "Aguardando Aprovação do Cliente"
+            },
+            { 
+                "pautaItemSituacao_int_id": 5, 
+                "pautaItemSituacao_txt_nome": "Aprovada"
+            },
+            { 
+                "pautaItemSituacao_int_id": 6, 
+                "pautaItemSituacao_txt_nome": "A Produzir"
+            },
+            { 
+                "pautaItemSituacao_int_id": 7, 
+                "pautaItemSituacao_txt_nome": "Pronto"
+            }
+        ]
+    }
+}
