@@ -25,6 +25,24 @@
                     "total_aprovado": 6,
                     "total_aproduzir": 2,
                     "total_pronto": 0
+                },
+                {
+                    "pautaQuote_int_id": 242 , 
+                    "pautaQuote_txt_nome": "Apenas Print My Case", 
+                    "pautaQuote_txt_responsável": "Othon Santos Assis", 
+                    "pautaQuoteResponsavel_int_id": 1917,
+                    "periodo_inicial": "2021-02-12T03:00:00.000000Z",
+                    "periodo_final": "2021-02-14T03:00:00.000000Z",
+                    "pautaQuoteSituacao_int_id": 2,
+                    "pautaQuoteSituacao_txt_nome": "Em andamento",
+                    "total_itens": 8,
+                    "total_aguardando_envio": 0,
+                    "total_enviado_marketing": 0,
+                    "total_arte_pronta": 0,
+                    "total_aguardando_aprovacao": 0,
+                    "total_aprovado": 6,
+                    "total_aproduzir": 2,
+                    "total_pronto": 0
                 }
             ] 
         }
