@@ -57,6 +57,7 @@
         "pauta_itens": [
             {
                 "pautaQuote_int_id": 241,
+                "vendaItemEncomenda_int_id": 1,
                 "pautaItem_bool_marketing": 0, 
                 "venda_int_id": 4014687, 
                 "venda_dt_data":"2021-02-14T03:00:00.000000Z",
@@ -98,6 +99,7 @@
         "data": [
             {
                 "pautaQuote_int_id": 241,
+                "vendaItemEncomenda_int_id": 1,
                 "pautaItem_bool_marketing": 0, 
                 "venda_int_id": 4014687, 
                 "venda_dt_data":"2021-02-14T03:00:00.000000Z",
@@ -117,6 +119,7 @@
         "data": [
             {
                 "pautaQuote_int_id": 241,
+                "vendaItemEncomenda_int_id": 1,
                 "pautaItem_bool_marketing": 1, 
                 "venda_int_id": 4014687, 
                 "venda_dt_data":"2021-02-14T03:00:00.000000Z",
@@ -130,6 +133,7 @@
             },
             {
                 "pautaQuote_int_id": 241,
+                "vendaItemEncomenda_int_id": 2,
                 "pautaItem_bool_marketing": 1, 
                 "venda_int_id": 4014687, 
                 "venda_dt_data":"2021-02-14T03:00:00.000000Z",
@@ -143,6 +147,7 @@
             },
             {
                 "pautaQuote_int_id": 241,
+                "vendaItemEncomenda_int_id": 3,
                 "pautaItem_bool_marketing": 1, 
                 "venda_int_id": 4014687, 
                 "venda_dt_data":"2021-02-14T03:00:00.000000Z",
