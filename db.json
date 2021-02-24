@@ -49,7 +49,6 @@
 
         
     },
-
     "pauta": {
         "pautaQuote_int_id": 241 , 
         "pautaQuote_txt_nome": "Apenas Print My Case", 
@@ -71,7 +70,6 @@
             }
         ]
     },
-
     "pauta_situacao": {
         "erro": 0,
         "msg": "Situações listadas com sucesso",
@@ -94,7 +92,6 @@
              }
         ]
     },
-
     "pauta_item": {
         "erro": 0,
         "msg": "Itens listados com sucesso",
@@ -114,7 +111,6 @@
             }
         ]
     },
-
     "nao_finalizados": {
         "erro": 0,
         "msg": "Itens de outras pautas listados com sucesso",
