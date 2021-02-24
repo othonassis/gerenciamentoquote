@@ -160,39 +160,4 @@
             }
         ]
     }
-
-    // "pauta_item_situacao": {
-    //     "erro": 0,
-    //     "msg": "Situações listas com sucesso",
-    //     "data":[
-    //         { 
-    //             "pautaItemSituacao_int_id": 1, 
-    //             "pautaItemSituacao_txt_nome": "Aguardando Envio da Arte" 
-    //         },
-    //         { 
-    //             "pautaItemSituacao_int_id": 2, 
-    //             "pautaItemSituacao_txt_nome": "Enviar para o Marketing" 
-    //         },
-    //         { 
-    //             "pautaItemSituacao_int_id": 3, 
-    //             "pautaItemSituacao_txt_nome": "Arte Pronta" 
-    //         },
-    //         { 
-    //             "pautaItemSituacao_int_id": 4, 
-    //             "pautaItemSituacao_txt_nome": "Aguardando Aprovação do Cliente"
-    //         },
-    //         { 
-    //             "pautaItemSituacao_int_id": 5, 
-    //             "pautaItemSituacao_txt_nome": "Aprovada"
-    //         },
-    //         { 
-    //             "pautaItemSituacao_int_id": 6, 
-    //             "pautaItemSituacao_txt_nome": "A Produzir"
-    //         },
-    //         { 
-    //             "pautaItemSituacao_int_id": 7, 
-    //             "pautaItemSituacao_txt_nome": "Pronto"
-    //         }
-    //     ]
-    // }
 }
