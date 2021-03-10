@@ -76,21 +76,13 @@
         "msg": "Situações listadas com sucesso",
         "data":[
             { 
-                "pautaQuoteSituacao_int_id": 1, 
-                "pautaQuoteSituacao_txt_nome": "Solicitado" 
+                "encomendaPautaSituacao_int_id": 1, 
+                "encomendaPautaSituacao_txt_nome": "Em aberto" 
             },
             { 
-                "pautaQuoteSituacao_int_id": 2, 
-                "pautaQuoteSituacao_txt_nome": "Em andamento" 
-            },
-            { 
-                "pautaQuoteSituacao_int_id": 3, 
-                "pautaQuoteSituacao_txt_nome": "Concluída" 
-            },
-            { 
-                "pautaQuoteSituacao_int_id": 4, 
-                "pautaQuoteSituacao_txt_nome": "Não Concluída"
-             }
+                "encomendaPautaSituacao_int_id": 2, 
+                "encomendaPautaSituacao_txt_nome": "Finalizado" 
+            }
         ]
     },
     "pauta_item": {
