@@ -1,156 +1,28 @@
 {
     "pautas": {
         "erro": 0,
-        "msg": "Pautas listadas com sucesso",
+        "msg": "Dados listados com sucesso",
         "data":
         {
-            "total_pautas": 4,
-            "total_nao_concluidas": 3,
-            "total_concluidas": 1,
-            "pautas": [
+            "empresa_txt_nome": "São Paulo - iPhone - Shopping Vila Olimpia - Quiosque P3E",
+            "vendaItemEncomenda_dt_previsaoEntrega": "2021-02-12T03:00:00.000000Z",
+            "venda_int_id": 4096443,
+            "vendaItemEncomenda_int_quemEntregou": "Felipe Paraguassú Dantas",
+            "cliente_txt_nome":"LARISSA SOUZA DE ALMEIDA",
+            "clienteTelefone_txt_telefone": "(71) 9926-92007",
+            "clienteEmail_txt_email":"larialmeida0712@gmail.com",
+            "total_produtos": 1,
+            "produtos": [
                 {
-                    "pautaQuote_int_id": 241 , 
-                    "pautaQuote_txt_nome": "Apenas Print My Case", 
-                    "pautaQuote_txt_responsavel": "Othon Santos Assis", 
-                    "pautaQuoteResponsavel_int_id": 1917,
-                    "periodo_inicial": "2021-02-12T03:00:00.000000Z",
-                    "periodo_final": "2021-02-14T03:00:00.000000Z",
-                    "pautaQuoteSituacao_int_id": 2,
-                    "pautaQuoteSituacao_txt_nome": "Em andamento",
-                    "total_itens": 8,
-                    "total_aguardando_envio": 0,
-                    "total_enviado_marketing": 0,
-                    "total_arte_pronta": 0,
-                    "total_aguardando_aprovacao": 0,
-                    "total_aprovado": 6,
-                    "total_aproduzir": 2,
-                    "total_pronto": 0
-                },
-                {
-                    "pautaQuote_int_id": 242 , 
-                    "pautaQuote_txt_nome": "Apenas Print My Case", 
-                    "pautaQuote_txt_responsavel": "Othon Santos Assis", 
-                    "pautaQuoteResponsavel_int_id": 1917,
-                    "periodo_inicial": "2021-02-12T03:00:00.000000Z",
-                    "periodo_final": "2021-02-14T03:00:00.000000Z",
-                    "pautaQuoteSituacao_int_id": 2,
-                    "pautaQuoteSituacao_txt_nome": "Em andamento",
-                    "total_itens": 8,
-                    "total_aguardando_envio": 0,
-                    "total_enviado_marketing": 0,
-                    "total_arte_pronta": 0,
-                    "total_aguardando_aprovacao": 0,
-                    "total_aprovado": 6,
-                    "total_aproduzir": 2,
-                    "total_pronto": 0
+                    "produto_int_id": 22963 , 
+                    "produto_txt_nome": "Capa Silicone iPhone 11 Pro Max - Transparente", 
+                    "produtoEstampa_txt_nome": "Flourish in faith",
+                    "vendaItemEncomenda_int_tipo": 1,
+                    "quantidade": 1
                 }
             ] 
         }
 
         
-    },
-    "pauta": {
-        "pautaQuote_int_id": 241 , 
-        "pautaQuote_txt_nome": "Apenas Print My Case", 
-        "pautaQuoteResponsavel_int_id": 1917,
-        "pautaQuoteSituacao_int_id": 2,
-        "pauta_itens": [
-            {
-                "pautaQuote_int_id": 241,
-                "vendaItemEncomenda_int_id": 1,
-                "pautaItem_bool_marketing": 0, 
-                "venda_int_id": 4014687, 
-                "venda_dt_data":"2021-02-14T03:00:00.000000Z",
-                "produto_int_id": 24208,
-                "produto_txt_nome": "Capa de Silicone Semi Rigida VX Case",
-                "produtoEstampa_txt_nome": "Starry Skater Masculino",
-                "produtoSubcategoria_txt_nome": "Galaxy A01",
-                "empresaFiscal_txt_nome_financeiro": "Salvador - iPhone - Shopping Bela Vista - Loja 55 - iPhone Bahia",
-                "venda_txt_justificativa": "CLIENTE DESEJA TODAS AS 2 FOTOS CENTRALIZADAS DE FORMA QUE A SAÍDA DA CAMERA NÃO CORTE A IMAGEM DAS PESSOAS.",
-                "vendaOperacaoHistorico_txt_obs": "CLIENTE DESEJA TODAS AS 2 FOTOS CENTRALIZADAS DE FORMA QUE A SAÍDA DA CAMERA NÃO CORTE A IMAGEM DAS PESSOAS."
-            }
-        ]
-    },
-    "pauta_situacao": {
-        "erro": 0,
-        "msg": "Situações listadas com sucesso",
-        "data":[
-            { 
-                "encomendaPautaSituacao_int_id": 1, 
-                "encomendaPautaSituacao_txt_nome": "Em aberto" 
-            },
-            { 
-                "encomendaPautaSituacao_int_id": 2, 
-                "encomendaPautaSituacao_txt_nome": "Finalizado" 
-            }
-        ]
-    },
-    "pauta_item": {
-        "erro": 0,
-        "msg": "Itens listados com sucesso",
-        "data": [
-            {
-                "pautaQuote_int_id": 241,
-                "vendaItemEncomenda_int_id": 1,
-                "pautaItem_bool_marketing": 0, 
-                "venda_int_id": 4014687, 
-                "venda_dt_data":"2021-02-14T03:00:00.000000Z",
-                "produto_int_id": 24208,
-                "produto_txt_nome": "Capa de Silicone Semi Rigida VX Case",
-                "produtoEstampa_txt_nome": "Starry Skater Masculino",
-                "produtoSubcategoria_txt_nome": "Galaxy A01",
-                "empresaFiscal_txt_nome_financeiro": "Salvador - iPhone - Shopping Bela Vista - Loja 55 - iPhone Bahia",
-                "venda_txt_justificativa": "CLIENTE DESEJA TODAS AS 2 FOTOS CENTRALIZADAS DE FORMA QUE A SAÍDA DA CAMERA NÃO CORTE A IMAGEM DAS PESSOAS.",
-                "vendaOperacaoHistorico_txt_obs": "CLIENTE DESEJA TODAS AS 2 FOTOS CENTRALIZADAS DE FORMA QUE A SAÍDA DA CAMERA NÃO CORTE A IMAGEM DAS PESSOAS."
-            }
-        ]
-    },
-    "nao_finalizados": {
-        "erro": 0,
-        "msg": "Itens de outras pautas listados com sucesso",
-        "data": [
-            {
-                "pautaQuote_int_id": 241,
-                "vendaItemEncomenda_int_id": 1,
-                "pautaItem_bool_marketing": 1, 
-                "venda_int_id": 4014687, 
-                "venda_dt_data":"2021-02-14T03:00:00.000000Z",
-                "produto_int_id": 24208,
-                "produto_txt_nome": "Capa de Silicone Semi Rigida VX Case",
-                "produtoEstampa_txt_nome": "Starry Skater Masculino",
-                "produtoSubcategoria_txt_nome": "Galaxy A01",
-                "empresaFiscal_txt_nome_financeiro": "Salvador - iPhone - Shopping Bela Vista - Loja 55 - iPhone Bahia",
-                "venda_txt_justificativa": "CLIENTE DESEJA TODAS AS 2 FOTOS CENTRALIZADAS DE FORMA QUE A SAÍDA DA CAMERA NÃO CORTE A IMAGEM DAS PESSOAS.",
-                "vendaOperacaoHistorico_txt_obs": "CLIENTE DESEJA TODAS AS 2 FOTOS CENTRALIZADAS DE FORMA QUE A SAÍDA DA CAMERA NÃO CORTE A IMAGEM DAS PESSOAS."
-            },
-            {
-                "pautaQuote_int_id": 241,
-                "vendaItemEncomenda_int_id": 2,
-                "pautaItem_bool_marketing": 1, 
-                "venda_int_id": 4014688, 
-                "venda_dt_data":"2021-02-14T03:00:00.000000Z",
-                "produto_int_id": 24209,
-                "produto_txt_nome": "Capa de Silicone Semi Rigida VX Case",
-                "produtoEstampa_txt_nome": "Starry Skater Masculino",
-                "produtoSubcategoria_txt_nome": "Galaxy A01",
-                "empresaFiscal_txt_nome_financeiro": "Salvador - iPhone - Shopping Bela Vista - Loja 55 - iPhone Bahia",
-                "venda_txt_justificativa": "CLIENTE DESEJA TODAS AS 2 FOTOS CENTRALIZADAS DE FORMA QUE A SAÍDA DA CAMERA NÃO CORTE A IMAGEM DAS PESSOAS.",
-                "vendaOperacaoHistorico_txt_obs": "CLIENTE DESEJA TODAS AS 2 FOTOS CENTRALIZADAS DE FORMA QUE A SAÍDA DA CAMERA NÃO CORTE A IMAGEM DAS PESSOAS."
-            },
-            {
-                "pautaQuote_int_id": 241,
-                "vendaItemEncomenda_int_id": 3,
-                "pautaItem_bool_marketing": 1, 
-                "venda_int_id": 4014689, 
-                "venda_dt_data":"2021-02-14T03:00:00.000000Z",
-                "produto_int_id": 24210,
-                "produto_txt_nome": "Capa de Silicone Semi Rigida VX Case",
-                "produtoEstampa_txt_nome": "Starry Skater Masculino",
-                "produtoSubcategoria_txt_nome": "Galaxy A01",
-                "empresaFiscal_txt_nome_financeiro": "Salvador - iPhone - Shopping Bela Vista - Loja 55 - iPhone Bahia",
-                "venda_txt_justificativa": "CLIENTE DESEJA TODAS AS 2 FOTOS CENTRALIZADAS DE FORMA QUE A SAÍDA DA CAMERA NÃO CORTE A IMAGEM DAS PESSOAS.",
-                "vendaOperacaoHistorico_txt_obs": "CLIENTE DESEJA TODAS AS 2 FOTOS CENTRALIZADAS DE FORMA QUE A SAÍDA DA CAMERA NÃO CORTE A IMAGEM DAS PESSOAS."
-            }
-        ]
-    }
+    } 
 }
